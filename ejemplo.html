@@ -1,0 +1,27 @@
+<!doctype html>
+<html>  
+<head>
+<meta charset="utf-8"/>
+    <!-- this is title of page web-->
+    <title> Control de acceso de una web</title>
+</head>
+    <body>
+        <!-- this is the division as margin into of page web for login-->
+        <div id="caja">
+        <h1>LOGIN</h1>
+        <!-- this is form with feature of petition of HTTP-->
+            <!-- the method post doesn´t is visible for user-->
+        <form action="http://127.0.0.1/login_usuario" method="post">
+            <!--this is label for name-->
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" value="nombre"/>
+            <!--this is label for password-->
+        <label for="password">password</label>
+        <input type="password" id="password"name="pass" value="pass"/>
+            <!-- this is button for access to URL-->
+        <input type="submit" name="boton" value=" acceso"/>
+        </form>
+        </div>
+</body>
+
+</html>
